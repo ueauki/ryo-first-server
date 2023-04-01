@@ -1,4 +1,4 @@
-package com.example.schedulerserver.task;
+package com.example.ryofirstserver.task;
 
 
 import org.springframework.scheduling.annotation.Scheduled;

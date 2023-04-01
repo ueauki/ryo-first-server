@@ -1,1 +1,1 @@
-rootProject.name = "schedulerServer"
+rootProject.name = "ryo-first-server"

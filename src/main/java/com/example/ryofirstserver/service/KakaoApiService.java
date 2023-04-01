@@ -1,6 +1,6 @@
-package com.example.schedulerserver.service;
+package com.example.ryofirstserver.service;
 
-import com.example.schedulerserver.util.ApiUtills;
+import com.example.ryofirstserver.util.ApiUtills;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;

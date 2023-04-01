@@ -1,4 +1,4 @@
-package com.example.schedulerserver.service;
+package com.example.ryofirstserver.service;
 
 import org.springframework.stereotype.Service;
 

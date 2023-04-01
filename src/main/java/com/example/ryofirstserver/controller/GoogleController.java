@@ -6,23 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/kakao")
-public class KakaoController {
+@RequestMapping("/api/v1/google")
+public class GoogleController {
 
     @Autowired
     private ApiUtills apiUtills;
 
-    @Autowired
-    private KakaoApiService kakaoApiService;
+    @PostMapping("/getForm")
+    public void getGoogleForm() {
 
-    @GetMapping("/test")
-    public String getTest() {
-        return "gggg";
-    }
-
-    @PostMapping("/messages")
-    public String postMessages(@RequestParam String email) {
-
-        return null;
     }
 }
